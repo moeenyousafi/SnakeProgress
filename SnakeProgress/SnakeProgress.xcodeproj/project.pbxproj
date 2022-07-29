@@ -7,106 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0048522893069E0038F65D /* SnakeProgress.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0E0048512893069E0038F65D /* SnakeProgress.docc */; };
-		0E0048582893069F0038F65D /* SnakeProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E00484D2893069E0038F65D /* SnakeProgress.framework */; };
-		0E00485D2893069F0038F65D /* SnakeProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E00485C2893069F0038F65D /* SnakeProgressTests.swift */; };
-		0E00485E2893069F0038F65D /* SnakeProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0048502893069E0038F65D /* SnakeProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E68558D2893C04100597E07 /* SnakeProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E68558C2893C04100597E07 /* SnakeProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6855952893C06900597E07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6855942893C06900597E07 /* AVFoundation.framework */; };
+		0E6855972893C07F00597E07 /* SankeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6855962893C07F00597E07 /* SankeProgress.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0E0048592893069F0038F65D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E0048442893069E0038F65D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E00484C2893069E0038F65D;
-			remoteInfo = SnakeProgress;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0E00484D2893069E0038F65D /* SnakeProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnakeProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0048502893069E0038F65D /* SnakeProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeProgress.h; sourceTree = "<group>"; };
-		0E0048512893069E0038F65D /* SnakeProgress.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SnakeProgress.docc; sourceTree = "<group>"; };
-		0E0048572893069F0038F65D /* SnakeProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E00485C2893069F0038F65D /* SnakeProgressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeProgressTests.swift; sourceTree = "<group>"; };
+		0E6855892893C04100597E07 /* SnakeProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnakeProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E68558C2893C04100597E07 /* SnakeProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeProgress.h; sourceTree = "<group>"; };
+		0E6855942893C06900597E07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0E6855962893C07F00597E07 /* SankeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SankeProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E00484A2893069E0038F65D /* Frameworks */ = {
+		0E6855862893C04100597E07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0048542893069F0038F65D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E0048582893069F0038F65D /* SnakeProgress.framework in Frameworks */,
+				0E6855952893C06900597E07 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E0048432893069E0038F65D = {
+		0E68557F2893C04100597E07 = {
 			isa = PBXGroup;
 			children = (
-				0E00484F2893069E0038F65D /* SnakeProgress */,
-				0E00485B2893069F0038F65D /* SnakeProgressTests */,
-				0E00484E2893069E0038F65D /* Products */,
+				0E68558B2893C04100597E07 /* SnakeProgress */,
+				0E68558A2893C04100597E07 /* Products */,
+				0E6855932893C06900597E07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0E00484E2893069E0038F65D /* Products */ = {
+		0E68558A2893C04100597E07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E00484D2893069E0038F65D /* SnakeProgress.framework */,
-				0E0048572893069F0038F65D /* SnakeProgressTests.xctest */,
+				0E6855892893C04100597E07 /* SnakeProgress.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E00484F2893069E0038F65D /* SnakeProgress */ = {
+		0E68558B2893C04100597E07 /* SnakeProgress */ = {
 			isa = PBXGroup;
 			children = (
-				0E0048502893069E0038F65D /* SnakeProgress.h */,
-				0E0048512893069E0038F65D /* SnakeProgress.docc */,
+				0E6855962893C07F00597E07 /* SankeProgress.swift */,
+				0E68558C2893C04100597E07 /* SnakeProgress.h */,
 			);
 			path = SnakeProgress;
 			sourceTree = "<group>";
 		};
-		0E00485B2893069F0038F65D /* SnakeProgressTests */ = {
+		0E6855932893C06900597E07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E00485C2893069F0038F65D /* SnakeProgressTests.swift */,
+				0E6855942893C06900597E07 /* AVFoundation.framework */,
 			);
-			path = SnakeProgressTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E0048482893069E0038F65D /* Headers */ = {
+		0E6855842893C04100597E07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E00485E2893069F0038F65D /* SnakeProgress.h in Headers */,
+				0E68558D2893C04100597E07 /* SnakeProgress.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E00484C2893069E0038F65D /* SnakeProgress */ = {
+		0E6855882893C04100597E07 /* SnakeProgress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0048612893069F0038F65D /* Build configuration list for PBXNativeTarget "SnakeProgress" */;
+			buildConfigurationList = 0E6855902893C04100597E07 /* Build configuration list for PBXNativeTarget "SnakeProgress" */;
 			buildPhases = (
-				0E0048482893069E0038F65D /* Headers */,
-				0E0048492893069E0038F65D /* Sources */,
-				0E00484A2893069E0038F65D /* Frameworks */,
-				0E00484B2893069E0038F65D /* Resources */,
+				0E6855842893C04100597E07 /* Headers */,
+				0E6855852893C04100597E07 /* Sources */,
+				0E6855862893C04100597E07 /* Frameworks */,
+				0E6855872893C04100597E07 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -114,46 +94,25 @@
 			);
 			name = SnakeProgress;
 			productName = SnakeProgress;
-			productReference = 0E00484D2893069E0038F65D /* SnakeProgress.framework */;
+			productReference = 0E6855892893C04100597E07 /* SnakeProgress.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		0E0048562893069F0038F65D /* SnakeProgressTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0E0048642893069F0038F65D /* Build configuration list for PBXNativeTarget "SnakeProgressTests" */;
-			buildPhases = (
-				0E0048532893069F0038F65D /* Sources */,
-				0E0048542893069F0038F65D /* Frameworks */,
-				0E0048552893069F0038F65D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0E00485A2893069F0038F65D /* PBXTargetDependency */,
-			);
-			name = SnakeProgressTests;
-			productName = SnakeProgressTests;
-			productReference = 0E0048572893069F0038F65D /* SnakeProgressTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0E0048442893069E0038F65D /* Project object */ = {
+		0E6855802893C04100597E07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					0E00484C2893069E0038F65D = {
+					0E6855882893C04100597E07 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					0E0048562893069F0038F65D = {
-						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
-			buildConfigurationList = 0E0048472893069E0038F65D /* Build configuration list for PBXProject "SnakeProgress" */;
+			buildConfigurationList = 0E6855832893C04100597E07 /* Build configuration list for PBXProject "SnakeProgress" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,26 +120,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 0E0048432893069E0038F65D;
-			productRefGroup = 0E00484E2893069E0038F65D /* Products */;
+			mainGroup = 0E68557F2893C04100597E07;
+			productRefGroup = 0E68558A2893C04100597E07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E00484C2893069E0038F65D /* SnakeProgress */,
-				0E0048562893069F0038F65D /* SnakeProgressTests */,
+				0E6855882893C04100597E07 /* SnakeProgress */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E00484B2893069E0038F65D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0048552893069F0038F65D /* Resources */ = {
+		0E6855872893C04100597E07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,34 +141,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E0048492893069E0038F65D /* Sources */ = {
+		0E6855852893C04100597E07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0048522893069E0038F65D /* SnakeProgress.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0E0048532893069F0038F65D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E00485D2893069F0038F65D /* SnakeProgressTests.swift in Sources */,
+				0E6855972893C07F00597E07 /* SankeProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0E00485A2893069F0038F65D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E00484C2893069E0038F65D /* SnakeProgress */;
-			targetProxy = 0E0048592893069F0038F65D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0E00485F2893069F0038F65D /* Debug */ = {
+		0E68558E2893C04100597E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		0E0048602893069F0038F65D /* Release */ = {
+		0E68558F2893C04100597E07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,13 +274,14 @@
 			};
 			name = Release;
 		};
-		0E0048622893069F0038F65D /* Debug */ = {
+		0E6855912893C04100597E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N5VQ54MN2X;
+				DEVELOPMENT_TEAM = B5PSC8P66B;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -362,18 +298,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0E0048632893069F0038F65D /* Release */ = {
+		0E6855922893C04100597E07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = N5VQ54MN2X;
+				DEVELOPMENT_TEAM = B5PSC8P66B;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -390,38 +328,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0E0048652893069F0038F65D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5VQ54MN2X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vf.SnakeProgressTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0E0048662893069F0038F65D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N5VQ54MN2X;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vf.SnakeProgressTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,34 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E0048472893069E0038F65D /* Build configuration list for PBXProject "SnakeProgress" */ = {
+		0E6855832893C04100597E07 /* Build configuration list for PBXProject "SnakeProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E00485F2893069F0038F65D /* Debug */,
-				0E0048602893069F0038F65D /* Release */,
+				0E68558E2893C04100597E07 /* Debug */,
+				0E68558F2893C04100597E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E0048612893069F0038F65D /* Build configuration list for PBXNativeTarget "SnakeProgress" */ = {
+		0E6855902893C04100597E07 /* Build configuration list for PBXNativeTarget "SnakeProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E0048622893069F0038F65D /* Debug */,
-				0E0048632893069F0038F65D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0E0048642893069F0038F65D /* Build configuration list for PBXNativeTarget "SnakeProgressTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E0048652893069F0038F65D /* Debug */,
-				0E0048662893069F0038F65D /* Release */,
+				0E6855912893C04100597E07 /* Debug */,
+				0E6855922893C04100597E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0E0048442893069E0038F65D /* Project object */;
+	rootObject = 0E6855802893C04100597E07 /* Project object */;
 }
