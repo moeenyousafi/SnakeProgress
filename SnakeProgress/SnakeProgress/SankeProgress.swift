@@ -96,6 +96,7 @@ public class CircularView: UIView {
         }
     }
 
+    //added private methods
     private func degreesToRadians(_ degrees: CGFloat) -> CGFloat {
       return CGFloat.pi * degrees/180.0
     }
