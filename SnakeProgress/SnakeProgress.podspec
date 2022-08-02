@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SnakeProgress"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "SnakeProgress provide easy snake like circular progress"
   spec.description  = "SnakeProgress provide easy snake like circular progress and build in view class which developer can set in storyboard and set progress with desired empty/filled colors."
   spec.homepage     = "https://github.com/moeenyousafi/SnakeProgress"
