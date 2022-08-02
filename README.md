@@ -28,7 +28,7 @@ pod "SnakeProgress"
 
 ## Author
 
-Moeen Arif, Moeen.yousafi@gmail.com
+Moeen Arif, moeen.yousafi@gmail.com
 
 ## License
 
