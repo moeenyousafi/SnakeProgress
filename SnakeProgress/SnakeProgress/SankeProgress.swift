@@ -45,7 +45,12 @@ public class CircularView: UIView {
     
     
     public func configureCircularView(progress: CGFloat, filledColor: UIColor, emptyColor: UIColor) {
-
+        
+        circularView(progress: progress, filledColor: filledColor, emptyColor: emptyColor)
+    }
+    
+    private func circularView(progress: CGFloat, filledColor: UIColor, emptyColor: UIColor) {
+        
         for layer in self.layer.sublayers ?? [] {
            if layer.isKind(of: CAShapeLayer.self) {
               layer.removeFromSuperlayer()
@@ -89,7 +94,7 @@ public class CircularView: UIView {
             self.layer.addSublayer(shapelayer)
         }
     }
-    
+
     private func degreesToRadians(_ degrees: CGFloat) -> CGFloat {
       return CGFloat.pi * degrees/180.0
     }
