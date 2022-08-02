@@ -49,6 +49,7 @@ public class CircularView: UIView {
         circularView(progress: progress, filledColor: filledColor, emptyColor: emptyColor)
     }
     
+    //added private methods
     private func circularView(progress: CGFloat, filledColor: UIColor, emptyColor: UIColor) {
         
         for layer in self.layer.sublayers ?? [] {
