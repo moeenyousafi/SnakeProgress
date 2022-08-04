@@ -10,6 +10,7 @@
 		0E68558D2893C04100597E07 /* SnakeProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E68558C2893C04100597E07 /* SnakeProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E6855952893C06900597E07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6855942893C06900597E07 /* AVFoundation.framework */; };
 		0E6855972893C07F00597E07 /* SankeProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6855962893C07F00597E07 /* SankeProgress.swift */; };
+		0E6855F4289BCB7700597E07 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6855F3289BCB7700597E07 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		0E68558C2893C04100597E07 /* SnakeProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnakeProgress.h; sourceTree = "<group>"; };
 		0E6855942893C06900597E07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		0E6855962893C07F00597E07 /* SankeProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SankeProgress.swift; sourceTree = "<group>"; };
+		0E6855F3289BCB7700597E07 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0E68558B2893C04100597E07 /* SnakeProgress */ = {
 			isa = PBXGroup;
 			children = (
+				0E6855F3289BCB7700597E07 /* screenshot.png */,
 				0E6855962893C07F00597E07 /* SankeProgress.swift */,
 				0E68558C2893C04100597E07 /* SnakeProgress.h */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6855F4289BCB7700597E07 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
