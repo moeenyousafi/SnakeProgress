@@ -6,7 +6,7 @@ SnakeProgress shows circular progress for iOS Apps.
 
 With SnakeProgress, you can easily circular progress.
 
-![alt text](https://github.com/moeenyousafi/SnakeProgress/blob/main/screenshot.png?raw=true)
+![Screenshot](https://github.com/moeenyousafi/SnakeProgress/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-08-04%20at%2014.38.13.png)
 
 ```swift
 @IBOutlet weak var circularProgressView: CircularView!
